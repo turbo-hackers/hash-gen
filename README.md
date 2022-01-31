@@ -1,6 +1,6 @@
 ## ABOUT TOOL :
 
-HASH-GEN tool is an python based script which create/generate hashes (sha256,md5), verify hashes (sha256,md5) and base64 string encoder and decode. This tool works on any devices with python required. (both rooted and non-rooted Android devices)
+HASH-GEN tool is an python based script which create/generate hashes (sha256,md5), verify hashes (sha256,md5) and base64 string encoder and decoder. This tool works on any devices with python required. (both rooted and non-rooted Android devices)
 
 
 
