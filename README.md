@@ -1,6 +1,6 @@
 ## ABOUT TOOL :
 
-HASH-GEN tool is an python based script which create/generate hashes (sha256,md5), verify hashes (sha256,md5) and base64 string encoder and decoder. This tool works on any devices with python required. (both rooted and non-rooted Android devices)
+HASH-GEN tool is an python based script which create/generate hashes (sha256,md5), verify hashes (sha256,md5) and base64 string encoder and decoder. This tool works on any devices with python required.
 
 
 
@@ -32,8 +32,8 @@ HASH-GEN tool is an python based script which create/generate hashes (sha256,md5
 * `sudo apt-get upgrade -y`
 * `sudo apt install python -y`
 * `sudo apt install git -y`
-* `sudo pip3 install lolcat`
-* `sudo pip3 install hashlib`
+* `sudo pip install lolcat`
+* `sudo pip install hashlib`
 * `git clone https://github.com/turbo-hackers/hash-gen.git`
 * `ls`
 * `cd hash-gen`
@@ -46,9 +46,9 @@ HASH-GEN tool is an python based script which create/generate hashes (sha256,md5
 * `apt-get upgrade -y`
 * `pkg install python -y`
 * `pkg install git -y`
-* `pip3 install lolcat`
-* `pip3 install requests`
-* `pip3 install hashlib`
+* `pip install lolcat`
+* `pip install requests`
+* `pip install hashlib`
 * `git clone https://github.com/turbo-hackers/hash-gen.git`
 * `ls`
 * `cd hash-gen`
