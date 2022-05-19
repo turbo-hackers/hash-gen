@@ -47,7 +47,6 @@ HASH-GEN tool is an python based script which create/generate hashes (sha256,md5
 * `pkg install python -y`
 * `pkg install git -y`
 * `pip install lolcat`
-* `pip install requests`
 * `pip install hashlib`
 * `git clone https://github.com/turbo-hackers/hash-gen.git`
 * `ls`
