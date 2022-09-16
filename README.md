@@ -28,6 +28,9 @@ HASH-GEN tool is an python based script which create/generate hashes (sha256,md5
 
 ## [Kali-Linux]:
 
+* `sudo apt-get update -y && sudo apt-get upgrade -y`
+* `sudo apt install python3 -y`
+* `sudo apt install git -y`
 * `git clone https://github.com/turbo-hackers/hash-gen.git`
 * `ls`
 * `cd hash-gen`
@@ -38,6 +41,9 @@ HASH-GEN tool is an python based script which create/generate hashes (sha256,md5
 
 ## [Termux]:
 
+* `apt-get update -y && apt-get upgrade -y`
+* `apt install python3 -y`
+* `apt install git -y`
 * `git clone https://github.com/turbo-hackers/hash-gen.git`
 * `ls`
 * `cd hash-gen`
