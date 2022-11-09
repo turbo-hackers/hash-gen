@@ -28,7 +28,7 @@ def banner():
 	   ==//==//=="""+g+"""   └  ┘└  ┘└──┘└  ┘└───┘└──┘└──┘└  ┘"""+b+"""
 	    //  // """+g+"""v 1.0
 	"""+reset)
-	print (y+"                     <===[["+b+" coded by"+blink+" TURB0 "+reset+y+"]]===>"+reset)
+	print (y+"                     <===[["+b+" coded by"+blink+" TURB0 "+reset+y+"]]===>\n"+reset)
 	print (y+"                  <---("+r+" GitHub- Turbo Hackers "+y+")--->"+reset+"\n")
 
 # gen code
