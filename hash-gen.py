@@ -12,9 +12,6 @@ cyan = '\033[96m'
 reset = '\033[1m'
 
 # banner Code
-
-print(green+"Tool is Starting....../"+green)
-time.sleep(1)
 def banner():
 	os.system("clear")
 	r ='\033[91m' # red
@@ -31,7 +28,7 @@ def banner():
 	   ==//==//=="""+g+"""   └  ┘└  ┘└──┘└  ┘└───┘└──┘└──┘└  ┘"""+b+"""
 	    //  // """+g+"""v 1.0
 	"""+reset)
-	print (y+"                     <===[["+b+" coded by"+blink+" TURB0 "+reset+y+"]]===>"+reset+"\n")
+	print (y+"                     <===[["+b+" coded by"+blink+" TURB0 "+reset+y+"]]===>"+reset)
 	print (y+"                  <---("+r+" GitHub- Turbo Hackers "+y+")--->"+reset+"\n")
 
 # gen code
@@ -303,10 +300,10 @@ def base64_gen():
 
 def main_choice():
 	banner()
-	print(yellow+"\t\t\t ["+green+"1"+yellow+"]➟ "+green+"Hashing {SHA256,MD5}"+reset)
-	print(yellow+"\t\t\t ["+green+"2"+yellow+"]➟ "+green+"Verifier {SHA256,MD5}"+reset)
-	print(yellow+"\t\t\t ["+green+"3"+yellow+"]➟ "+green+"Base64 Encoder/Decoder"+reset)
-	print(yellow+"\t\t\t ["+green+"0"+yellow+"]➟ "+green+"Exit"+reset)
+	print(yellow+"\t\t\t["+green+"1"+yellow+"]➟ "+green+"Hashing {SHA256,MD5}"+reset)
+	print(yellow+"\t\t\t["+green+"2"+yellow+"]➟ "+green+"Verifier {SHA256,MD5}"+reset)
+	print(yellow+"\t\t\t["+green+"3"+yellow+"]➟ "+green+"Base64 Encoder/Decoder"+reset)
+	print(yellow+"\t\t\t["+green+"0"+yellow+"]➟ "+green+"Exit"+reset)
 	choice_1 = int(input(green+"\nSelect option : "+reset))
 	if choice_1 == 1:
 		gen()
@@ -325,8 +322,10 @@ def main_choice():
 		main_choice()
 
 # main code
-
-def main():
+try:
 	main_choice()
-	
-main()
+except:
+	print(yellow+"\n["+red+"Error"+yellow+"]"+cyan+" Something went wrong! Please try again after some time.")
+	error_msg = input(cyan+"Press any key to Close the program ... ")
+	exit(0)
+
