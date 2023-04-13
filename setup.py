@@ -18,7 +18,7 @@ try:
 	print(y+"["+s_b+"¤"+y+"]"+s_b+" System Info"+y+":-ᗒ"+s_b, platform.node(), platform.system(), platform.release(),y+"["+s_b+"¤"+y+"]"+reset+"\n")
 	print("\n")
 
-	os.system("pip3 install lolcat hashlib")
+	os.system("pip3 install hashlib")
 	os.system("clear")
 
 	print(s_b+"""   ------------------------------ 
