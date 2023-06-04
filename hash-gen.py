@@ -9,7 +9,7 @@ red = '\033[91m'
 green = '\033[92m'
 yellow = '\033[93m'
 cyan = '\033[96m'
-reset = '\033[1m'
+reset = '\033[0m'
 
 # banner Code
 def banner():
@@ -239,7 +239,7 @@ def base64_gen():
 		print(red+" [ "+green+"Selected : Base64 Encoder"+red+" ]"+reset)
 		print(" ")
 		string_base64 = input(green+"Enter The String To Encode :-\n : "+reset)
-		result_base64 = str(base64.b64encode(string_base64.encode("utf-8")),"utf-8")
+		result_base64 = base64.b64encode(string_base64.encode("utf-8")).decode("utf-8")
 		print(cyan+"\n  String = "+green,string_base64)
 		print(cyan+"\n  Base64 Encoded String = "+green,result_base64)
 		print(yellow+"\n\t\t["+green+"1"+yellow+"]➟ "+green+"Main Menu"+reset)
@@ -261,7 +261,7 @@ def base64_gen():
 		print(red+" [ "+green+"Selected : Base64 Decoder"+red+" ]"+reset)
 		print(" ")
 		string_base64 = input(green+"Enter The String To Decode :-\n : "+reset)
-		result_base64 = base64.b64decode(string_base64.encode("ascii")).decode("ascii")
+		result_base64 = base64.b64decode(string_base64.encode("utf-8")).decode("utf-8")
 		print(cyan+"\n  String = "+green,string_base64)
 		print(cyan+"\n  Base64 Decoded String = "+green,result_base64)
 		print(yellow+"\n\t\t["+green+"1"+yellow+"]➟ "+green+"Main Menu"+reset)
@@ -325,7 +325,7 @@ def main_choice():
 try:
 	main_choice()
 except:
-	print(yellow+"\n["+red+"Error"+yellow+"]"+cyan+" Something went wrong! Please try again after some time.")
-	error_msg = input(cyan+"Press any key to Close the program ... ")
+	print(yellow+"\n["+red+"Error"+yellow+"]"+cyan+" Something went wrong! Please try again after some time."+reset)
+	error_msg = input(cyan+"Press any key to Close the program ..."+reset)
 	exit(0)
 
